@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+a {
+  @apply text-red-700 border-b-red-600 border-b font-semibold;
+}
+
+a:hover {
+  @apply text-red-400;
+}
+
+body {
+  @apply bg-gray-800;
+  @apply text-red-50;
+
+}
