@@ -17,10 +17,10 @@ export default function Home() {
             </div>
             <h1 className='text-5xl text-red-50 mb-4'>V Rising Mods</h1>
             <ul className='text-xl'>
-              <li>Join <a href="https://discord.gg/vrisingmods">Discord</a></li>
+              <li>Join <a href="https://vrisingmods.com/discord">Discord</a></li>
               <li>Submit <a href="https://ideas.vrisingmods.com">Mod Ideas</a></li>
               <li>View <a href="https://wiki.vrisingmods.com">Wiki</a></li>
-              <li>Get <a href="https://v-rising.thunderstore.io/"> Mods</a></li>
+              <li>Get <a href="https://v-rising.thunderstore.io/">Mods</a></li>
             </ul>
           </div>
         </div>
