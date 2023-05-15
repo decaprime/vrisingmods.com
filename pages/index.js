@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import logo from '../public/logo.webp'
 
 export default function Home() {
   return (
@@ -8,12 +9,13 @@ export default function Home() {
         <title>V Rising Mods</title>
         <meta name="description" content="V Rising Mods" />
         <link rel="icon" href="/favicon.ico" />
+        <script defer data-domain="vrisingmods.com" src="https://traffic.dev.deca.gg/js/plausible.js"></script>
       </Head>
       <main>
         <div className='flex items-center flex-col flex-auto justify-center h-screen'>
           <div>
             <div className='text-center'>
-              <Image src='/logo.webp' alt='V Rising Mods' className='' width={150} height={150} />
+              <Image src={logo} placeholder="blur" alt='V Rising Mods' className='' width={150} height={150} />
             </div>
             <h1 className='text-5xl text-red-50 mb-4'>V Rising Mods</h1>
             <ul className='text-xl'>
