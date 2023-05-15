@@ -9,7 +9,7 @@ export default function Home() {
         <title>V Rising Mods</title>
         <meta name="description" content="V Rising Mods" />
         <link rel="icon" href="/favicon.ico" />
-        <script defer data-domain="vrisingmods.com" src="https://traffic.dev.deca.gg/js/plausible.js"></script>
+        <script defer data-domain="vrisingmods.com" src="https://traffic.dev.deca.gg/js/script.js"></script>
       </Head>
       <main>
         <div className='flex items-center flex-col flex-auto justify-center h-screen'>
